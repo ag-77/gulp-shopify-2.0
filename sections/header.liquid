@@ -2,6 +2,10 @@
   {{ link.title | link_to: link.url }}
 {%- endfor %}
 
+
+
+{% if pages.blkstudio.title != blank %}
 <h1>{{ pages.blkstudio.title }}</h1>
+{% endif %}
 
 
