@@ -1,3 +1,9 @@
+{% if pages.blkstudio.title != blank %}
+  <h1>{{ pages.blkstudio.title }}</h1>
+  {{ pages.blkstudio.content }}
+{% endif %}
+
+
 {% schema %}
   {
     "name": "Section name",
@@ -5,8 +11,3 @@
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
