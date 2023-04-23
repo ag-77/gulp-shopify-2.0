@@ -1,8 +1,14 @@
-{% if pages.blkstudio.title != blank %}
-  <h1>{{ pages.blkstudio.title }}</h1>
-  {{ pages.blkstudio.content }}
-{% endif %}
 
+
+{% if page.content != blank %}
+  <div class="rte">
+    {{ page.content }}
+  </div>
+{% else %}
+  <div class="rte">
+    The page content is currently pending. Please check again shortly.
+  </div>
+{% endif %}
 
 {% schema %}
   {
