@@ -1,4 +1,5 @@
 {
+  "wrapper": "div#div_id.div_class",
   "sections": {
     "main": {
       "type": "index",
