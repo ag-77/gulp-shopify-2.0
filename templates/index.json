@@ -1,5 +1,5 @@
 {
-  "wrapper": "div#div_id.div_class",
+  "wrapper": "section.container",
   "sections": {
     "main": {
       "type": "slideshow",
