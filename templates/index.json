@@ -4,6 +4,7 @@
     "main": {
       "type": "slideshow",
       "settings": {
+        "title": "Hello"
       }
     }
   },
