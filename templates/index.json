@@ -1,5 +1,5 @@
 {
-  "wrapper": "div.container.slider",
+  "wrapper": "div.slider",
   "sections": {
     "main": {
       "type": "slideshow",
