@@ -1,5 +1,5 @@
 {
-  "wrapper": "div.slider",
+  "wrapper": "div.shopify-slider",
   "sections": {
     "main": {
       "type": "slideshow",
